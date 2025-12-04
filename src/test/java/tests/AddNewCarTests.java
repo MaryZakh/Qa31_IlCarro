@@ -32,7 +32,7 @@ if(!app.getHelperUser().isLogged()){
                 .price(50.)
                 .about("Very nice car")
                 .build();
-
+        logger.info("Test start with test data --->" + car.toString());
         app.getHelperCar().openCarForm();
         app.getHelperCar().fillCarForm(car);
         app.getHelperCar().attachPhoto("D:\\Qa_31\\Qa31_IlCarro\\bugatti.jpg");

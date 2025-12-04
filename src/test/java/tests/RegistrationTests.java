@@ -33,6 +33,7 @@ public class RegistrationTests extends TestBase {
                 .withLastName("Snow")
                 .withEmail("snow" + z + "@gmail.com")
                 .withPassword("Snow12345$");
+        logger.info("Test start with test data --->" + user.toString());
 
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
@@ -48,7 +49,7 @@ public class RegistrationTests extends TestBase {
                 .withLastName("Snow")
                 .withEmail("snow@gmail.com")
                 .withPassword("Snow12345$");
-
+        logger.info("Test start with test data --->" + user.toString());
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
@@ -64,7 +65,7 @@ public class RegistrationTests extends TestBase {
                 .withLastName("")
                 .withEmail("snow@gmail.com")
                 .withPassword("Snow12345$");
-
+        logger.info("Test start with test data --->" + user.toString());
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
@@ -81,7 +82,7 @@ public class RegistrationTests extends TestBase {
                 .withLastName("Snow")
                 .withEmail("snowgmail.com")
                 .withPassword("Snow12345$");
-
+        logger.info("Test start with test data --->" + user.toString());
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
@@ -98,7 +99,7 @@ public class RegistrationTests extends TestBase {
                 .withLastName("Snow")
                 .withEmail("")
                 .withPassword("Snow12345$");
-
+        logger.info("Test start with test data --->" + user.toString());
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
@@ -116,7 +117,7 @@ public class RegistrationTests extends TestBase {
                 .withLastName("Snow")
                 .withEmail("snow@gmail.com")
                 .withPassword("Snow1234");
-
+        logger.info("Test start with test data --->" + user.toString());
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
@@ -133,7 +134,7 @@ public class RegistrationTests extends TestBase {
                 .withLastName("Snow")
                 .withEmail("snow@gmail.com")
                 .withPassword("");
-
+        logger.info("Test start with test data --->" + user.toString());
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
